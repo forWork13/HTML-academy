@@ -163,3 +163,118 @@ line-height: 29px;
   width: 387px;
   height: 145px;
 }
+
+.steps {
+  color:#AE7C78;
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+.steps h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+.steps h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+.steps p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.news{
+  color: #AE7C78;
+  font-style: normal;
+}
+.news h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+.news p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.reviews {
+  color: #AE7C78;
+  text-align: center;
+  font-style: normal;
+}
+.reviews h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+.reviews p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.reviews p:nth-of-type(2) {
+  font-weight: 500;
+}
+
+.contacts {
+  color: #AE7C78;
+  font-style: normal;
+}
+.contacts a {
+  text-decoration: none;
+  color: #AE7C78;
+}
+.contacts h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+}
+.contacts p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.contacts p:nth-of-type(2n) {
+  font-weight: 500;
+}
+.rectangle {
+  width: 386px;
+  height: 520px;
+  background: #F7FAFC;
+  box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+  border-radius: 12px;
+}
+
+footer {
+height: 97px;
+background: #AE7C78;
+color: #FFFFFF;
+}
+footer li {
+  list-style-type: none;
+}
+footer a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
