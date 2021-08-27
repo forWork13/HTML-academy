@@ -1,7 +1,4 @@
-/*
-font-family: 'Montserrat', sans-serif;
-font-family: 'Playfair Display', serif;
-*/
+
 * {
   margin: 0;
   padding: 0;
@@ -13,22 +10,27 @@ header, main, footer {
   background: #FFFFFF;
   width: 1440px;
 }
+a:hover {
+  color: green;
+}
+li a:hover {
+  color: green;
+}
 .first-nav li {
   list-style-type: none;
 }
 .first-nav a{
   color: #AE7C78;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
 }
-
 h1 {
   margin: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 44px;
@@ -38,36 +40,33 @@ h1 {
 h1>span {
   font-style: italic;
 }
-
 .main p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
   color: #AE7C78;
 }
-
 .advantages {
   color: #AE7C78;
 }
 .advantages h4 {
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 .advantages p {
-  font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
-
 .popular h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", "Times New Roman", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -76,7 +75,7 @@ line-height: 20px;
   color: #AE7C78;
 }
 .popular h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -84,7 +83,7 @@ line-height: 20px;
   color: #AE7C78;
 }
 .popular p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -92,12 +91,10 @@ line-height: 20px;
   color: #AE7C78;
 }
 .popular .price {
-font-weight: 500;
-font-size: 24px;
-line-height: 29px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
 }
-
-
 .catalog {
   color: #FFFFFF;
 }
@@ -126,7 +123,7 @@ line-height: 29px;
   border-radius: 10px;
 }
 .catalog h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", "Times New Roman", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -135,14 +132,13 @@ line-height: 29px;
   letter-spacing: 0.02em;
 }
 .catalog p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
 }
-
 .discount {
   background: #AE7C78;
   width: 1200px;
@@ -151,26 +147,25 @@ line-height: 29px;
   font-weight: normal; 
 }
 .discount h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", "Times New Roman", serif;
   font-size: 44px;
   line-height: 59px;
   letter-spacing: 0.02em;
 }
 .discount p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 24px;
   line-height: 29px;
   width: 387px;
   height: 145px;
 }
-
 .steps {
   color:#AE7C78;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
 }
 .steps h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", "Times New Roman", serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 48px;
@@ -188,39 +183,37 @@ line-height: 29px;
   line-height: 20px;
   text-align: center;
 }
-
 .news{
   color: #AE7C78;
   font-style: normal;
 }
 .news h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", "Times New Roman", serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 0.02em;
 }
 .news p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
 }
-
 .reviews {
   color: #AE7C78;
   text-align: center;
   font-style: normal;
 }
 .reviews h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", "Times New Roman", serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 0.02em;
 }
 .reviews p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
@@ -228,7 +221,6 @@ line-height: 29px;
 .reviews p:nth-of-type(2) {
   font-weight: 500;
 }
-
 .contacts {
   color: #AE7C78;
   font-style: normal;
@@ -238,13 +230,13 @@ line-height: 29px;
   color: #AE7C78;
 }
 .contacts h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", "Times New Roman", serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 48px;
 }
 .contacts p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -257,21 +249,20 @@ line-height: 29px;
   width: 386px;
   height: 520px;
   background: #F7FAFC;
-  box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+  box-shadow: 0 4px 40px rgba(217, 217, 217, 0.3);
   border-radius: 12px;
 }
-
 footer {
-height: 97px;
-background: #AE7C78;
-color: #FFFFFF;
+  height: 97px;
+  background: #AE7C78;
+  color: #FFFFFF;
 }
 footer li {
   list-style-type: none;
 }
 footer a {
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
